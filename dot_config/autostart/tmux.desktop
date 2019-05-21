@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=tmux
+GenericName=tmux session creation
+Comment=octopuspower
+Exec=/home/froth/bin/tmux_create_session.sh
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
+
