@@ -1,6 +1,6 @@
 #export QT_STYLE_OVERRIDE=GTK+ # use system font size
 export QT_AUTO_SCREEN_SCALE_FACTOR=0
-export SBT_OPTS="-Xms512M -Xmx3536M -Xss1M  -XX:+CMSClassUnloadingEnabled  -XX:+UseConcMarkSweepGC"
+export SBT_OPTS="-Xms512M -Xmx3536M -Xss64M  -XX:+CMSClassUnloadingEnabled  -XX:+UseConcMarkSweepGC"
 export SECRETS_GPG_COMMAND=gpg2
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
