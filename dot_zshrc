@@ -50,7 +50,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 #export NVM_AUTO_USE=true
-plugins=(git z podman sbt stack)
+plugins=(git z sbt stack)
 
 # User configuration
 
