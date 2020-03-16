@@ -4,7 +4,7 @@ export SBT_OPTS="-Xms512M -Xmx3536M -Xss64M  -XX:+CMSClassUnloadingEnabled  -XX:
 export SECRETS_GPG_COMMAND=gpg2
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
+export PATH="$PATH:$HOME/.rvm/bin:$HOME/.local/bin"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 bash ~/.removecaps
