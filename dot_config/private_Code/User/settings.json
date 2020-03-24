@@ -1,0 +1,33 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "window.zoomLevel": 0,
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDelete": false,
+    "[haskell]": {
+        "editor.defaultFormatter": "alanz.vscode-hie-server"
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo"
+                }
+            ]
+        }
+    ]
+}
