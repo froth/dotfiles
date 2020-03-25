@@ -3,6 +3,8 @@ export QT_AUTO_SCREEN_SCALE_FACTOR=0
 export SBT_OPTS="-Xms512M -Xmx3536M -Xss64M  -XX:+CMSClassUnloadingEnabled  -XX:+UseConcMarkSweepGC"
 export SECRETS_GPG_COMMAND=gpg2
 
+export MOB_VOICE_COMMAND=espeak
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin:$HOME/.local/bin"
 
